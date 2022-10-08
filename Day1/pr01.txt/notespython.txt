@@ -1,0 +1,142 @@
+Rules of variables:-
+---------------------------
+
+1. Can't start with number.
+   Eg-1='python'
+
+2. No space.
+   Eg-a 1='python'
+
+3. Can't use special character.
+   Eg- a$='hello', a_1='hello', _=200
+
+4. Can't use keywords.
+
+PYTHON OPERATORS:-
+---------------------------------
+
+7 types of operators:-
+
+1. Arithmetic Operator.                       +,-,*,/,%,//,**
+2. Comparison/Relation Operator.     >,<,>=,<=,!=,==  
+3. Assignment Operator.             +,+=,-=,*=,/=,//=          
+4. Bitwise Operator.                     &,|,^
+5. Logical Operator.                     And, or, not
+6. Identity Operator.                    is, is not
+7. Membership Operator.             in, not in
+--------------------------------------------------------------------
+
+( )-     Function, Expression, Tuple
+[ ]-     List, Indexing, Slicing
+{ }-    Set, Dictionary
+<>-   No use
+
+------------------------------------------
+
+DATATYPES IN PYTHON
+
+1. Numeric----int---a=5
+                         Float---b=5.5
+                         Complex---3+5j
+2. String-------str----a='hello'/ a="hello"/ a='''hello'''
+                                   b="'hi'"(not possible)
+3. List--------list----my_list=['ab', 5, 5.5, 1+9j]
+4. Tuple-----tuple---my_tuple=(45, 4.5, 'his', 'bye')
+5. Set-------set------{1,23,21,21}
+6. Dictionary-----dict { key : value }
+7. Boolean-----True, False
+-----------------------------------------
+
+STRING :-
+
+1. Members of string are accessed by indexing.
+2. a='sanskrati'
+   a[starting :stop:step]
+   a[0:2]='sa'
+3. String is immutable.
+
+----------------------------------
+
+LIST :-
+
+1.[]
+2. Homo/hetro
+3. Mutable
+4. Indexing/slicing loop
+5. Extend, append, insert functions are used for adding elements.
+    Extend is used to add multiple elements at the last.
+    Append is used to add only single element at the last.
+    Insert is used to add element at specific position.
+6. Pop
+-------------------------------------------------
+
+TUPPLE :-
+
+1. ()
+2. immutable
+3. Common sep val
+4. Homo/hetro
+5. Indexing/slicing
+6. Tuple is faster than list.
+-----------------------------------------
+SET :-
+
+1. Unordered
+2. Indexing/slicing(no use)
+3. Unique collection.
+4. {}
+-----------------------------
+DICTIONARY :-
+
+1. Unordered.
+2. Key value pair.
+3. Indexing/slicing (not possible).
+-----------------------------------
+STATEMENTS :-
+
+1. Condition/decision making--if-elif-else
+2. Looping--for and while
+3. Exception Handling-----try, Expect
+------------------------
+ladder if
+-----------------------
+if age<18 :
+     print('a present')
+elif age>=18 and age<=20:
+     print('problem')
+     print('a mission')
+else:
+     print('no present')  
+--------------------------
+nested if
+--------------------------
+
+if today == 'Friday':
+   print('holiday')
+elif today == 'Saturday':
+   if condition == 'sick':
+       print('take rest')
+   else:
+       print('party')
+----------------------------
+range(starting point(including), stop(excluding), step)she (h
+-----------------------------
+Loop:-
+
+1. For loop
+2. While loop
+
+for i in [1,2,3,4]:
+     print(i)
+-----------------------
+FUNCTION:
+--------------------
+1. NO i/p NO o/p.
+2. NO i/p But o/p.
+3. i/p but no o/p.
+4. O/p and i/p.
+----------------------
+Module ----it is an .py file;Ex-OS,Math
+Packages-----it is a collection of modules,__init__.py
+Libraries-----it is a collection of packages
+

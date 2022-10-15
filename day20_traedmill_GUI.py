@@ -43,7 +43,7 @@ col3 = ttk.Variable(app)
 values = ['Select','Product','Age','Gender']
 col3.set(values[0])
 ttk.Label(app, text = 'Column 3').place(x=100,y=130)
-ttk.OptionMenu(app, col3, *values).place(x=100,y=160)
+ttk.OptionMenu(app, col3, *values).place(x=100,y=150)
 
 def show():
     print(col1.get(), col2.get(), col3.get())

@@ -1,0 +1,3 @@
+([('day22',
+   '/Users/sanskratijain/Desktop/Training ML/dist/day22',
+   'EXECUTABLE')],)
